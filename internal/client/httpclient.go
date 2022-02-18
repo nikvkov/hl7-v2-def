@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"development.zazmic.com/dicom-adapter/adapter-cluster/hl7-v2-def/domain"
+	"github.com/nikvkov/hl7-v2-def/domain"
 )
 
 const (
