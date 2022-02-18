@@ -1,9 +1,9 @@
-package main
+package hl7_v2_def
 
 import (
+	"development.zazmic.com/dicom-adapter/adapter-cluster/hl7-v2-def/domain"
 	"development.zazmic.com/dicom-adapter/adapter-cluster/hl7-v2-def/internal/abstraction"
 	"development.zazmic.com/dicom-adapter/adapter-cluster/hl7-v2-def/internal/client"
-	"development.zazmic.com/dicom-adapter/adapter-cluster/hl7-v2-def/internal/domain"
 )
 
 type getter struct {
