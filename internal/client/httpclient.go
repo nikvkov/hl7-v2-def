@@ -11,7 +11,7 @@ import (
 
 const (
 	baseUrl                     = "https://hl7-definition.caristix.com/v2-api/1"
-	triggersUrl                 = baseUrl + "/1/%s/TriggerEvents"
+	triggersUrl                 = baseUrl + "/%s/TriggerEvents"
 	segmentUrl                  = baseUrl + "/%s/Segments/%s"
 	segmentsByVersionAndTrigger = baseUrl + "/%s/TriggerEvents/%s"
 )
